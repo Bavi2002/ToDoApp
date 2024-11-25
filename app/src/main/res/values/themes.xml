@@ -1,0 +1,20 @@
+
+<resources>
+
+<!-- Base application theme. -->
+<style name="Base.Theme.ToDoApp." parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Custom theme colors -->
+    <item name="colorPrimary">@android:color/black</item>
+    <item name="colorPrimaryVariant">@android:color/black</item>
+    <item name="colorOnPrimary">@android:color/white</item>
+    <item name="colorAccent">@android:color/black</item>
+</style>
+
+<!-- Custom Button style to avoid purple tint -->
+<style name="CustomButton" parent="Widget.MaterialComponents.Button">
+    <item name="backgroundTint">@null</item>
+    <item name="android:background">@drawable/rounded_button</item>
+    <item name="android:textColor">@android:color/white</item>
+</style>
+
+</resources>

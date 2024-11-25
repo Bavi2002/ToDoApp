@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/to_do_wall1"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Update ToDo"
+        android:textColor="#040303"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/todoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/update_task"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#616060"
+        android:textColorHint="#737171"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/updateButton"
+        style="@style/CustomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+
+        android:fontFamily="@font/poppins_seminbold"
+        android:letterSpacing="0.2"
+        android:text="@string/update"
+        android:textSize="20sp" />
+</LinearLayout>

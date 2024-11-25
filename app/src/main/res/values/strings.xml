@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="enter_task">Enter Task</string>
+    <string name="save">Save</string>
+    <string name="add_a_new_task">Add a new task</string>
+    <string name="welcome_to_to_do_app">Welcome to To-Do App</string>
+    <string name="go">Go</string>
+    <string name="set_timer_for_the_task">Set Timer for the Task</string>
+    <string name="enter_timer_in_seconds">Enter timer in seconds</string>
+    <string name="ok">OK</string>
+    <string name="update_task">Update Task</string>
+    <string name="update">Update</string>
+</resources>

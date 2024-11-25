@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/todoTitle"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/poppins_seminbold"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <!-- Timer button -->
+    <ImageButton
+        android:id="@+id/timerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_recent_history"
+        android:contentDescription="Set Timer"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:tint="#0237BF" />
+
+    <ImageButton
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        android:contentDescription="Update Todo"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:tint="#1FA505" />
+
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_delete"
+        android:contentDescription="Delete Todo"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:tint="#FF0000" />
+</LinearLayout>

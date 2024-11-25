@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_seminbold"
+        android:gravity="center"
+        android:text="@string/set_timer_for_the_task"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/timerInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/enter_timer_in_seconds"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="#605E5E"
+        android:textColorHint="#474747"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/startTimerButton"
+        style="@style/CustomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+
+        android:fontFamily="@font/poppins_seminbold"
+        android:letterSpacing="0.1"
+        android:text="@string/ok"
+        android:textSize="20sp" />
+</LinearLayout>
